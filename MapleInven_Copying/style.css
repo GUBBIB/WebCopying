@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+}
+html, head, body, div, ul, li, button, a, img, h1, h2, header, section, article, p, span, br {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 13px;
+  font-family: "Malgun Gothic","맑은 고벤딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+}
+body {
+  line-height: nomarl;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ol, ul {
+  list-style: none;
+}
+.topBar {
+  min-width: 1280px;
+  background: #fbfbfb;
+  text-align: center;
+  justify-content: space-between;
+  height: 30px;
+  font-size: 11px;
+  line-height: 30px;
+  border-bottom: 1px solid #e1e1e1;
+  position: relative;
+}
+
+.btn_pop {
+  padding-right: 10px;
+}
+.left-area {
+  position: absolute;
+  padding: 0px 10px;
+}
+.left {
+  display: flex;
+}
+
+.center_area {
+  display: inline-block;
+}
+.link {
+  border-right: solid 1px gray;
+  padding: 0px 10px;
+}
+.center_area li {
+  list-style: none;
+  float: left;
+}
+
+.right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.right_area {
+  padding-right: 30px;
+}
+.right_area > div {
+  float: left;
+  padding: 0px 3px;
+  font-size: 11px;
+}
+
+.btn_Login {
+  background-color: #ff7e00;
+  color: #fff;
+  text-align: center;
+  width: 60px;
+  height: 20px;
+}
+.btn_Quick {
+  background-color: #02aa35;
+  color: #fff;
+  text-align: center;
+  width: 60px;
+  height: 20px;
+}
+
+.min-width {
+  min-width: 1280px;
+}
+
+.commu-content header h1 {
+  margin: 0 10px 0 0;
+  width: 282px;
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+}
+header {
+  display: flex;
+  margin: 0 0 10px 0;
+}
+.commu-content {
+  width: 1020px;
+  margin: 0 10px 0 0;
+  position: relative;
+}
+.commu-content h1 a img header {
+  vertical-align: middle;
+}
+.commu-content img {
+  padding: 10px 0 0 0;
+}
+.commu-wrap {
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  padding: 10px 0 0 0;
+  width: 1280px;
+}
+.ad-header {
+  width: 728px;
+  height: 90px;
+}
+
+
+.commu-nav li {
+  list-style: none;
+  float: left;
+  background-color: #cf462d;
+  text-align: center;
+  width: 169.83px;
+  position: relative;
+  border: 1px solid #333;
+  border-right: 0px;
+  height: 42px;
+  
+}
+.commu-nav a {
+  display: block;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 40px;
+}
+
+.commu-left {
+  width: 200px;
+  background-color: #f4f4f4;
+  border: 1px solid #d0d0d0;
+  border-top: 0;
+  border-bottom: 0;
+  box-sizing: border-box;
+  line-height: 1;
+}
+.commu-nav > ul {
+  display: flex;
+}
+.commu-content > article {
+  display: flex;
+  height: 100%;
+}
+.commu-left h2 {
+  padding: 18px 0 12px 0;
+  text-align: center;
+  letter-spacing: -0.25px;
+}
+.commu-left h2 > a {
+  display: block;
+  font-size: 16px;
+  font-family: "Noto Sans";
+  font-weight: 500;
+  transform: scaleX(0.95);
+}
+
+.commu-left .log-out {
+  padding: 7px 0 12px 0;
+}
+.commu-left .log-out p {
+  margin-bottom: 7px;
+  text-align: center;
+  color: #000;
+  font-size: 12px;
+  line-height: 15px;
+}
+.log-out p span {
+  color: #205dfa;
+}
+.commu-left .log-out .login-btn {
+  display: block;
+  margin: 0 auto 20px;
+  width: 135px;
+  height: 31px;
+  line-height: 29px;
+  text-align: center;
+  color: #fff;
+  border: 0;
+  background-color: #2d2d2d;
+}
