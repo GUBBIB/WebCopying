@@ -194,3 +194,38 @@ header {
   border: 0;
   background-color: #2d2d2d;
 }
+
+.log-out div {
+  justify-content: center;
+  display: flex;
+}
+.log-out div > a {
+  position: relative;
+  padding: 0 15px;
+  font-size: 11px;
+}
+#right-border {
+  border-right: 1px solid gray;
+}
+
+.search form {
+  display: flex;
+  border: 1px solid #d0d0d0;
+}
+.search form input {
+  padding-left: 5px;
+  width: calc(100% - 30px);
+}
+input[type="text" i] {
+  padding: 1px 2px;
+}
+.search form button {
+  position: relative;
+  overflow: hidden;
+  width: 30px;
+  height: 24px;
+  background: #2d2d2d;
+  text-indent: -9999px;
+  border: 0;
+  cursor: pointer;
+}
